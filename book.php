@@ -1,6 +1,8 @@
 
 		<div class="wrapper">
 			<?php
+			include("inc/connection.php");
+			include("inc/functions.php");
 				if($_SERVER["REQUEST_METHOD"]=="POST"){
 					$name = trim(filter_input(INPUT_POST,"nam",FILTER_SANITIZE_STRING));
 					$from = trim(filter_input(INPUT_POST,"from",FILTER_SANITIZE_STRING));
@@ -256,7 +258,7 @@
 							$stmt->bindParam(':tickets',$tickets,PDO::PARAM_STR);
 							
 							$stmt->execute();
-							message_goto("You have successfully booked for your trip. We promise you an adventure of a lifetime","index.php");
+							message_goto("You have successfully booked for your trip. We promise you an adventure of a lifetime. Your trip costs $".$amount,"customer_home.php");
 						}
 		
 					catch(Exception $e){
@@ -274,6 +276,10 @@
 
 					<form method="post" action="">
 						<table>
+							<tr>
+								<th><label for="name">Name*</label></th>
+								<td><input type="text" id="name" name="nam" value="" /></td>
+							</tr>
 							<tr>
 								<th><label for="from">From</label></th>
 								<td><select id="from" name="from">

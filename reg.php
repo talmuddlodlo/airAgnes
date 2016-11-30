@@ -69,7 +69,7 @@
 				$stmt->bindParam(':pass',$pass,PDO::PARAM_STR);
 				
 				$stmt->execute();
-				message_goto("Your details have been uploaded. Wait for verification and activation","index.php");
+				message_goto("Your details have been uploaded. You are now registered, Sign in and book a flight","index.php");
 		}
 		
 		catch(Exception $e){

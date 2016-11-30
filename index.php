@@ -11,7 +11,11 @@
 				<h2>Where would you like to go?</h2>
 			</div>
 				<ul id = "gallery">
-					
+					<li><a href="signin.php">
+						<img src="img/lion2.gif" width="470" height="250"/>
+						<p>Visit Zimbabwe and discover a true world of wonders. Click to book a flight</p>
+						</a>
+					</li>
 					<li><a href="signin.php">
 						<img src="img/fall.png" width="470" height="250"/>
 						<p>Come to Victoria Falls down in Zimbabwe and enjoy your money. Click to book</p>
@@ -19,20 +23,25 @@
 					</li>
 						
 					<li><a href="signin.php">
-						<img src="img/cape1.jpg" width="470" height="250"/>
-						<p>To experience something truly special visit Cape Town with its rich contrast from the shimmering majesty of the Table mountains to the sandy Antlantic beaches.</p>
+						<img src="img/elephant.gif" width="330" height="250"/>
+						<p>A change in season brings new exhibitions, shows and concerts to welcome the Summer months in this city of history and culture known as the City of Kings (Bulawayo) and also visit Hwange National Park</p>
 						</a>
 					</li>
 					
 					<li><a href="signin.php">
-						<img src="img/book.png" width="470" height="250"/>
-						<p>A change in season brings new exhibitions, shows and concerts to welcome the Summer months in this city of history and culture known as the City of Kings (Bulawayo).</p>
+						<img src="img/xmas.gif" width="470" height="250"/>
+						<p>Merry Christmas, visit Johannesburg this Festival Season. Book Now</p>
 						</a>
 					</li>
 					
 					<li><a href="signin.php">
 						<img src="img/ins.jpg" width="470" height="250"/>
-						<p>To experience something truly special visit Cape Town with its rich contrast from the shimmering majesty of the Table mountains to the sandy Antlantic beaches.</p>
+						<p>Fly with us and enjoy world class services this festive season. Book now</p>
+						</a>
+					</li>
+					<li><a href="signin.php">
+						<img src="img/ocean.gif" width="470" height="250"/>
+						<p>Enjoy your holiday in the Atlantic, visit Cape Town. Book now</p>
 						</a>
 					</li>
 				</ul>	
