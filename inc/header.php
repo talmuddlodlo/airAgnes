@@ -13,8 +13,8 @@
 
 			<ul class="nav">
                 <li class="tutor"><a href="check_in.php">Check In</a></li>
-                <li class="stud"><a href="#">Timetables</a></li>
-                <li class="tech"><a href="#">Holidays</a></li>
+                <li class="stud"><a href="reg.php">Register</a></li>
+                <li class="tech"><a href="holiday.php">Holidays</a></li>
 				<li class="tech"><a href="signin.php">Sign In</a></li>
             </ul>
 

@@ -1,8 +1,8 @@
 	<?php 
+	$pageTitle = "register";
 	include("inc/header.php");
 	include("inc/connection.php"); 
 	include("inc/functions.php");
-		$pageTitle = "register";
 		$section = NULL;
 	?>
 
